@@ -15,6 +15,7 @@ class URL:
     raw_host: Optional[str]
     host: Optional[str]
     port: Optional[int]
+    explicit_port: Optional[int]
     raw_path: str
     path: str
     raw_query_string: str
